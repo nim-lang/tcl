@@ -36,13 +36,13 @@
 
 when defined(WIN32): 
   const 
-    dllName = "tcl(85|84|83|82|81|80).dll"
+    dllName = "tcl(86|85|84|83|82|81|80).dll"
 elif defined(macosx): 
   const 
-    dllName = "libtcl(8.5|8.4|8.3|8.2|8.1).dylib"
+    dllName = "libtcl(8.6|8.5|8.4|8.3|8.2|8.1).dylib"
 else: 
   const 
-    dllName = "libtcl(8.5|8.4|8.3|8.2|8.1).so(|.1|.0)"
+    dllName = "libtcl(8.6|8.5|8.4|8.3|8.2|8.1).so(|.1|.0)"
 const 
   TCL_DESTROYED* = 0xDEADDEAD
   TCL_OK* = 0
